@@ -1,8 +1,8 @@
 package Mp3Project.model;
 
-import lombok.Getter;
+import lombok.Value;
 
-@Getter
+@Value
 public class Audio {
   private String artist;
   private String year;
